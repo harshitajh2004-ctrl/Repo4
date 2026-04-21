@@ -3,7 +3,7 @@ import React from 'react';
 const AboutPage = () => {
   return (
     <div className="container">
-      <section className="section">
+      <section className="section" style={{ padding: '10vh 0' }}>
         <h1>About Me</h1>
         <div className="grid grid-cols-2" style={{ alignItems: 'start' }}>
           <div>
