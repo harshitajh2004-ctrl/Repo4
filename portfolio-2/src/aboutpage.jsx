@@ -3,9 +3,9 @@ import React from 'react';
 const AboutPage = () => {
   return (
     <div className="container">
-      <section className="section" style={{ padding: '10vh 0' }}>
+      <section className="section">
         <h1>About Me</h1>
-        <div className="grid grid-cols-2" style={{ alignItems: 'start' }}>
+        <div className="grid grid-cols-2">
           <div>
             <p>
               I am a passionate designer and developer with a keen eye for detail and a love for minimalism. My journey in the digital space started with a simple curiosity about how things work, which quickly evolved into a career dedicated to crafting seamless user experiences.

@@ -16,9 +16,9 @@ const ProjectsPage = () => {
 
   return (
     <div className="container">
-      <section className="section" style={{ padding: '10vh 0' }}>
-        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Projects</h1>
-        <p style={{ maxWidth: '600px', marginBottom: '4rem', fontSize: '1.2rem' }}>
+      <section className="section">
+        <h1 className="projects-title">Projects</h1>
+        <p className="projects-intro">
           A curated selection of my recent work, spanning from UI/UX design to full-stack development.
         </p>
 
@@ -28,11 +28,11 @@ const ProjectsPage = () => {
               <div className="project-image-container">
                 <img src={project.image} alt={project.title} />
               </div>
-              <p style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', color: 'var(--accent-color)', marginBottom: '0.8rem', letterSpacing: '0.1em' }}>
+              <p className="project-category">
                 {project.category}
               </p>
-              <h3 style={{ marginBottom: '0.8rem', fontSize: '1.4rem' }}>{project.title}</h3>
-              <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{project.description}</p>
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-description">{project.description}</p>
               <a href="#" className="view-project-link">
                 View Project <span>→</span>
               </a>
